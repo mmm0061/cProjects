@@ -33,7 +33,7 @@ void scramble(char *string)
     char originalString[length+1];
     strcpy(originalString, string);
     int newlength = trim(string);
-    printf("The text without whitespaces & capital letters: %s \n", string);
+    //printf("The text without whitespaces & capital letters: %s \n", string);
     char newString[newlength];
     int randNumArr[newlength];
     int* randArr = uniqueRandNum(newlength, randNumArr);
